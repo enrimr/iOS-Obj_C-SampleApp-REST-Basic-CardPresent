@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95AEBE1C18720EC400F7EBE8 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 95AEBE1B18720EC400F7EBE8 /* second.png */; };
+		95AEBE2118720EDB00F7EBE8 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95AEBE1D18720EDB00F7EBE8 /* second@2x.png */; };
+		95AEBE2218720EDB00F7EBE8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE1F18720EDB00F7EBE8 /* SecondViewController.m */; };
+		95AEBE2318720EDB00F7EBE8 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95AEBE2018720EDB00F7EBE8 /* SecondViewController.xib */; };
+		95AEBE2618720EEE00F7EBE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE2518720EEE00F7EBE8 /* AppDelegate.m */; };
+		95AEBE2C18720F2800F7EBE8 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 95AEBE2718720F2800F7EBE8 /* first.png */; };
+		95AEBE2D18720F2800F7EBE8 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95AEBE2818720F2800F7EBE8 /* first@2x.png */; };
+		95AEBE2E18720F2800F7EBE8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE2A18720F2800F7EBE8 /* FirstViewController.m */; };
+		95AEBE2F18720F2800F7EBE8 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95AEBE2B18720F2800F7EBE8 /* FirstViewController.xib */; };
+		95AEBE3718720F8E00F7EBE8 /* CWSAddressInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE3418720F8E00F7EBE8 /* CWSAddressInfo.m */; };
+		95AEBE3818720F8E00F7EBE8 /* CWSAlternativeMerchantData.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE3618720F8E00F7EBE8 /* CWSAlternativeMerchantData.m */; };
+		95AEBE4518720FD900F7EBE8 /* CWSCreditCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE3A18720FD900F7EBE8 /* CWSCreditCard.m */; };
+		95AEBE4618720FD900F7EBE8 /* CWSDifferenceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE3C18720FD900F7EBE8 /* CWSDifferenceData.m */; };
+		95AEBE4718720FD900F7EBE8 /* CWSInterchangeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE3E18720FD900F7EBE8 /* CWSInterchangeData.m */; };
+		95AEBE4818720FD900F7EBE8 /* CWSTransactionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE4018720FD900F7EBE8 /* CWSTransactionData.m */; };
+		95AEBE4918720FD900F7EBE8 /* CWSTransactionDataPro.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE4218720FD900F7EBE8 /* CWSTransactionDataPro.m */; };
+		95AEBE4A18720FD900F7EBE8 /* CWSTransactionReportingData.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE4418720FD900F7EBE8 /* CWSTransactionReportingData.m */; };
+		95AEBE4D18720FF300F7EBE8 /* CWSAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE4C18720FF300F7EBE8 /* CWSAPI.m */; };
+		95AEBE501872101500F7EBE8 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE4F1872101500F7EBE8 /* NSDate+InternetDateTime.m */; };
+		95AEBE531872102A00F7EBE8 /* NSString+Base64Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE521872102A00F7EBE8 /* NSString+Base64Encode.m */; };
+		95AEBE561872104900F7EBE8 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE551872104900F7EBE8 /* NSObject+SBJson.m */; };
+		95AEBE6E1872106000F7EBE8 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE591872106000F7EBE8 /* SBJsonParser.m */; };
+		95AEBE6F1872106000F7EBE8 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE5B1872106000F7EBE8 /* SBJsonStreamParser.m */; };
+		95AEBE701872106000F7EBE8 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE5D1872106000F7EBE8 /* SBJsonStreamParserAccumulator.m */; };
+		95AEBE711872106000F7EBE8 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE5F1872106000F7EBE8 /* SBJsonStreamParserAdapter.m */; };
+		95AEBE721872106000F7EBE8 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE611872106000F7EBE8 /* SBJsonStreamParserState.m */; };
+		95AEBE731872106000F7EBE8 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE631872106000F7EBE8 /* SBJsonStreamWriter.m */; };
+		95AEBE741872106000F7EBE8 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE651872106000F7EBE8 /* SBJsonStreamWriterAccumulator.m */; };
+		95AEBE751872106000F7EBE8 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE671872106000F7EBE8 /* SBJsonStreamWriterState.m */; };
+		95AEBE761872106000F7EBE8 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE691872106000F7EBE8 /* SBJsonTokeniser.m */; };
+		95AEBE771872106000F7EBE8 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE6B1872106000F7EBE8 /* SBJsonUTF8Stream.m */; };
+		95AEBE781872106000F7EBE8 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AEBE6D1872106000F7EBE8 /* SBJsonWriter.m */; };
+		95AEBE7A187210B600F7EBE8 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95AEBE79187210B600F7EBE8 /* config.plist */; };
+		95F5531A1871FFEF00EBB3BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F553191871FFEF00EBB3BB /* Foundation.framework */; };
+		95F5531C1871FFEF00EBB3BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F5531B1871FFEF00EBB3BB /* CoreGraphics.framework */; };
+		95F5531E1871FFEF00EBB3BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F5531D1871FFEF00EBB3BB /* UIKit.framework */; };
+		95F553241871FFEF00EBB3BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95F553221871FFEF00EBB3BB /* InfoPlist.strings */; };
+		95F553261871FFEF00EBB3BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F553251871FFEF00EBB3BB /* main.m */; };
+		95F5532C1871FFEF00EBB3BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F5532B1871FFEF00EBB3BB /* Images.xcassets */; };
+		95F553331871FFF000EBB3BB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F553321871FFF000EBB3BB /* XCTest.framework */; };
+		95F553341871FFF000EBB3BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F553191871FFEF00EBB3BB /* Foundation.framework */; };
+		95F553351871FFF000EBB3BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F5531D1871FFEF00EBB3BB /* UIKit.framework */; };
+		95F5533D1871FFF000EBB3BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95F5533B1871FFF000EBB3BB /* InfoPlist.strings */; };
+		95F5533F1871FFF000EBB3BB /* Snap_iOS_SDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F5533E1871FFF000EBB3BB /* Snap_iOS_SDKTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95F553361871FFF000EBB3BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95F5530E1871FFEF00EBB3BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95F553151871FFEF00EBB3BB;
+			remoteInfo = Snap_iOS_SDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95AEBE1B18720EC400F7EBE8 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		95AEBE1D18720EDB00F7EBE8 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		95AEBE1E18720EDB00F7EBE8 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		95AEBE1F18720EDB00F7EBE8 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		95AEBE2018720EDB00F7EBE8 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		95AEBE2418720EEE00F7EBE8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95AEBE2518720EEE00F7EBE8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95AEBE2718720F2800F7EBE8 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		95AEBE2818720F2800F7EBE8 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		95AEBE2918720F2800F7EBE8 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		95AEBE2A18720F2800F7EBE8 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		95AEBE2B18720F2800F7EBE8 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		95AEBE3318720F8E00F7EBE8 /* CWSAddressInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWSAddressInfo.h; sourceTree = "<group>"; };
+		95AEBE3418720F8E00F7EBE8 /* CWSAddressInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWSAddressInfo.m; sourceTree = "<group>"; };
+		95AEBE3518720F8E00F7EBE8 /* CWSAlternativeMerchantData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWSAlternativeMerchantData.h; sourceTree = "<group>"; };
+		95AEBE3618720F8E00F7EBE8 /* CWSAlternativeMerchantData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWSAlternativeMerchantData.m; sourceTree = "<group>"; };
+		95AEBE3918720FD900F7EBE8 /* CWSCreditCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWSCreditCard.h; sourceTree = "<group>"; };
+		95AEBE3A18720FD900F7EBE8 /* CWSCreditCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWSCreditCard.m; sourceTree = "<group>"; };
+		95AEBE3B18720FD900F7EBE8 /* CWSDifferenceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWSDifferenceData.h; sourceTree = "<group>"; };
+		95AEBE3C18720FD900F7EBE8 /* CWSDifferenceData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWSDifferenceData.m; sourceTree = "<group>"; };
+		95AEBE3D18720FD900F7EBE8 /* CWSInterchangeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWSInterchangeData.h; sourceTree = "<group>"; };
+		95AEBE3E18720FD900F7EBE8 /* CWSInterchangeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWSInterchangeData.m; sourceTree = "<group>"; };
+		95AEBE3F18720FD900F7EBE8 /* CWSTransactionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWSTransactionData.h; sourceTree = "<group>"; };
+		95AEBE4018720FD900F7EBE8 /* CWSTransactionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWSTransactionData.m; sourceTree = "<group>"; };
+		95AEBE4118720FD900F7EBE8 /* CWSTransactionDataPro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWSTransactionDataPro.h; sourceTree = "<group>"; };
+		95AEBE4218720FD900F7EBE8 /* CWSTransactionDataPro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWSTransactionDataPro.m; sourceTree = "<group>"; };
+		95AEBE4318720FD900F7EBE8 /* CWSTransactionReportingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWSTransactionReportingData.h; sourceTree = "<group>"; };
+		95AEBE4418720FD900F7EBE8 /* CWSTransactionReportingData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWSTransactionReportingData.m; sourceTree = "<group>"; };
+		95AEBE4B18720FF300F7EBE8 /* CWSAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWSAPI.h; sourceTree = "<group>"; };
+		95AEBE4C18720FF300F7EBE8 /* CWSAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWSAPI.m; sourceTree = "<group>"; };
+		95AEBE4E1872101500F7EBE8 /* NSDate+InternetDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+InternetDateTime.h"; sourceTree = "<group>"; };
+		95AEBE4F1872101500F7EBE8 /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
+		95AEBE511872102A00F7EBE8 /* NSString+Base64Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64Encode.h"; sourceTree = "<group>"; };
+		95AEBE521872102A00F7EBE8 /* NSString+Base64Encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64Encode.m"; sourceTree = "<group>"; };
+		95AEBE541872104900F7EBE8 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		95AEBE551872104900F7EBE8 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		95AEBE571872106000F7EBE8 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		95AEBE581872106000F7EBE8 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		95AEBE591872106000F7EBE8 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		95AEBE5A1872106000F7EBE8 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		95AEBE5B1872106000F7EBE8 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		95AEBE5C1872106000F7EBE8 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		95AEBE5D1872106000F7EBE8 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		95AEBE5E1872106000F7EBE8 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		95AEBE5F1872106000F7EBE8 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		95AEBE601872106000F7EBE8 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		95AEBE611872106000F7EBE8 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		95AEBE621872106000F7EBE8 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		95AEBE631872106000F7EBE8 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		95AEBE641872106000F7EBE8 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		95AEBE651872106000F7EBE8 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		95AEBE661872106000F7EBE8 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		95AEBE671872106000F7EBE8 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		95AEBE681872106000F7EBE8 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		95AEBE691872106000F7EBE8 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		95AEBE6A1872106000F7EBE8 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		95AEBE6B1872106000F7EBE8 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		95AEBE6C1872106000F7EBE8 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		95AEBE6D1872106000F7EBE8 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		95AEBE79187210B600F7EBE8 /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		95F553161871FFEF00EBB3BB /* Snap_iOS_SDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snap_iOS_SDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F553191871FFEF00EBB3BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95F5531B1871FFEF00EBB3BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		95F5531D1871FFEF00EBB3BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		95F553211871FFEF00EBB3BB /* Snap_iOS_SDK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Snap_iOS_SDK-Info.plist"; sourceTree = "<group>"; };
+		95F553231871FFEF00EBB3BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95F553251871FFEF00EBB3BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95F553271871FFEF00EBB3BB /* Snap_iOS_SDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snap_iOS_SDK-Prefix.pch"; sourceTree = "<group>"; };
+		95F5532B1871FFEF00EBB3BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		95F553311871FFF000EBB3BB /* Snap_iOS_SDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Snap_iOS_SDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F553321871FFF000EBB3BB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		95F5533A1871FFF000EBB3BB /* Snap_iOS_SDKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Snap_iOS_SDKTests-Info.plist"; sourceTree = "<group>"; };
+		95F5533C1871FFF000EBB3BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95F5533E1871FFF000EBB3BB /* Snap_iOS_SDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Snap_iOS_SDKTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95F553131871FFEF00EBB3BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F5531C1871FFEF00EBB3BB /* CoreGraphics.framework in Frameworks */,
+				95F5531E1871FFEF00EBB3BB /* UIKit.framework in Frameworks */,
+				95F5531A1871FFEF00EBB3BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F5532E1871FFF000EBB3BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F553331871FFF000EBB3BB /* XCTest.framework in Frameworks */,
+				95F553351871FFF000EBB3BB /* UIKit.framework in Frameworks */,
+				95F553341871FFF000EBB3BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95AEBD9F1872073500F7EBE8 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				95AEBDA11872077100F7EBE8 /* Classes */,
+				95AEBDA01872074000F7EBE8 /* Helpers */,
+				95AEBE4B18720FF300F7EBE8 /* CWSAPI.h */,
+				95AEBE4C18720FF300F7EBE8 /* CWSAPI.m */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		95AEBDA01872074000F7EBE8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				95AEBE4E1872101500F7EBE8 /* NSDate+InternetDateTime.h */,
+				95AEBE4F1872101500F7EBE8 /* NSDate+InternetDateTime.m */,
+				95AEBE511872102A00F7EBE8 /* NSString+Base64Encode.h */,
+				95AEBE521872102A00F7EBE8 /* NSString+Base64Encode.m */,
+				95AEBDD41872081900F7EBE8 /* SBJSON */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		95AEBDA11872077100F7EBE8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				95AEBE3318720F8E00F7EBE8 /* CWSAddressInfo.h */,
+				95AEBE3418720F8E00F7EBE8 /* CWSAddressInfo.m */,
+				95AEBE3518720F8E00F7EBE8 /* CWSAlternativeMerchantData.h */,
+				95AEBE3618720F8E00F7EBE8 /* CWSAlternativeMerchantData.m */,
+				95AEBE3918720FD900F7EBE8 /* CWSCreditCard.h */,
+				95AEBE3A18720FD900F7EBE8 /* CWSCreditCard.m */,
+				95AEBE3B18720FD900F7EBE8 /* CWSDifferenceData.h */,
+				95AEBE3C18720FD900F7EBE8 /* CWSDifferenceData.m */,
+				95AEBE3D18720FD900F7EBE8 /* CWSInterchangeData.h */,
+				95AEBE3E18720FD900F7EBE8 /* CWSInterchangeData.m */,
+				95AEBE3F18720FD900F7EBE8 /* CWSTransactionData.h */,
+				95AEBE4018720FD900F7EBE8 /* CWSTransactionData.m */,
+				95AEBE4118720FD900F7EBE8 /* CWSTransactionDataPro.h */,
+				95AEBE4218720FD900F7EBE8 /* CWSTransactionDataPro.m */,
+				95AEBE4318720FD900F7EBE8 /* CWSTransactionReportingData.h */,
+				95AEBE4418720FD900F7EBE8 /* CWSTransactionReportingData.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		95AEBDD41872081900F7EBE8 /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				95AEBE541872104900F7EBE8 /* NSObject+SBJson.h */,
+				95AEBE551872104900F7EBE8 /* NSObject+SBJson.m */,
+				95AEBE571872106000F7EBE8 /* SBJson.h */,
+				95AEBE581872106000F7EBE8 /* SBJsonParser.h */,
+				95AEBE591872106000F7EBE8 /* SBJsonParser.m */,
+				95AEBE5A1872106000F7EBE8 /* SBJsonStreamParser.h */,
+				95AEBE5B1872106000F7EBE8 /* SBJsonStreamParser.m */,
+				95AEBE5C1872106000F7EBE8 /* SBJsonStreamParserAccumulator.h */,
+				95AEBE5D1872106000F7EBE8 /* SBJsonStreamParserAccumulator.m */,
+				95AEBE5E1872106000F7EBE8 /* SBJsonStreamParserAdapter.h */,
+				95AEBE5F1872106000F7EBE8 /* SBJsonStreamParserAdapter.m */,
+				95AEBE601872106000F7EBE8 /* SBJsonStreamParserState.h */,
+				95AEBE611872106000F7EBE8 /* SBJsonStreamParserState.m */,
+				95AEBE621872106000F7EBE8 /* SBJsonStreamWriter.h */,
+				95AEBE631872106000F7EBE8 /* SBJsonStreamWriter.m */,
+				95AEBE641872106000F7EBE8 /* SBJsonStreamWriterAccumulator.h */,
+				95AEBE651872106000F7EBE8 /* SBJsonStreamWriterAccumulator.m */,
+				95AEBE661872106000F7EBE8 /* SBJsonStreamWriterState.h */,
+				95AEBE671872106000F7EBE8 /* SBJsonStreamWriterState.m */,
+				95AEBE681872106000F7EBE8 /* SBJsonTokeniser.h */,
+				95AEBE691872106000F7EBE8 /* SBJsonTokeniser.m */,
+				95AEBE6A1872106000F7EBE8 /* SBJsonUTF8Stream.h */,
+				95AEBE6B1872106000F7EBE8 /* SBJsonUTF8Stream.m */,
+				95AEBE6C1872106000F7EBE8 /* SBJsonWriter.h */,
+				95AEBE6D1872106000F7EBE8 /* SBJsonWriter.m */,
+			);
+			name = SBJSON;
+			sourceTree = "<group>";
+		};
+		95F5530D1871FFEF00EBB3BB = {
+			isa = PBXGroup;
+			children = (
+				95F5531F1871FFEF00EBB3BB /* Snap_iOS_SDK */,
+				95F553381871FFF000EBB3BB /* Snap_iOS_SDKTests */,
+				95F553181871FFEF00EBB3BB /* Frameworks */,
+				95F553171871FFEF00EBB3BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95F553171871FFEF00EBB3BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95F553161871FFEF00EBB3BB /* Snap_iOS_SDK.app */,
+				95F553311871FFF000EBB3BB /* Snap_iOS_SDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95F553181871FFEF00EBB3BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95F553191871FFEF00EBB3BB /* Foundation.framework */,
+				95F5531B1871FFEF00EBB3BB /* CoreGraphics.framework */,
+				95F5531D1871FFEF00EBB3BB /* UIKit.framework */,
+				95F553321871FFF000EBB3BB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95F5531F1871FFEF00EBB3BB /* Snap_iOS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				95AEBD9F1872073500F7EBE8 /* SDK */,
+				95AEBE2418720EEE00F7EBE8 /* AppDelegate.h */,
+				95AEBE2518720EEE00F7EBE8 /* AppDelegate.m */,
+				95AEBE2718720F2800F7EBE8 /* first.png */,
+				95AEBE2818720F2800F7EBE8 /* first@2x.png */,
+				95AEBE2918720F2800F7EBE8 /* FirstViewController.h */,
+				95AEBE2A18720F2800F7EBE8 /* FirstViewController.m */,
+				95AEBE2B18720F2800F7EBE8 /* FirstViewController.xib */,
+				95AEBE1D18720EDB00F7EBE8 /* second@2x.png */,
+				95AEBE1E18720EDB00F7EBE8 /* SecondViewController.h */,
+				95AEBE1F18720EDB00F7EBE8 /* SecondViewController.m */,
+				95AEBE2018720EDB00F7EBE8 /* SecondViewController.xib */,
+				95AEBE1B18720EC400F7EBE8 /* second.png */,
+				95F5532B1871FFEF00EBB3BB /* Images.xcassets */,
+				95F553201871FFEF00EBB3BB /* Supporting Files */,
+			);
+			path = Snap_iOS_SDK;
+			sourceTree = "<group>";
+		};
+		95F553201871FFEF00EBB3BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95AEBE79187210B600F7EBE8 /* config.plist */,
+				95F553211871FFEF00EBB3BB /* Snap_iOS_SDK-Info.plist */,
+				95F553221871FFEF00EBB3BB /* InfoPlist.strings */,
+				95F553251871FFEF00EBB3BB /* main.m */,
+				95F553271871FFEF00EBB3BB /* Snap_iOS_SDK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95F553381871FFF000EBB3BB /* Snap_iOS_SDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				95F5533E1871FFF000EBB3BB /* Snap_iOS_SDKTests.m */,
+				95F553391871FFF000EBB3BB /* Supporting Files */,
+			);
+			path = Snap_iOS_SDKTests;
+			sourceTree = "<group>";
+		};
+		95F553391871FFF000EBB3BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95F5533A1871FFF000EBB3BB /* Snap_iOS_SDKTests-Info.plist */,
+				95F5533B1871FFF000EBB3BB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95F553151871FFEF00EBB3BB /* Snap_iOS_SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F553421871FFF000EBB3BB /* Build configuration list for PBXNativeTarget "Snap_iOS_SDK" */;
+			buildPhases = (
+				95F553121871FFEF00EBB3BB /* Sources */,
+				95F553131871FFEF00EBB3BB /* Frameworks */,
+				95F553141871FFEF00EBB3BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snap_iOS_SDK;
+			productName = Snap_iOS_SDK;
+			productReference = 95F553161871FFEF00EBB3BB /* Snap_iOS_SDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95F553301871FFF000EBB3BB /* Snap_iOS_SDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F553451871FFF000EBB3BB /* Build configuration list for PBXNativeTarget "Snap_iOS_SDKTests" */;
+			buildPhases = (
+				95F5532D1871FFF000EBB3BB /* Sources */,
+				95F5532E1871FFF000EBB3BB /* Frameworks */,
+				95F5532F1871FFF000EBB3BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95F553371871FFF000EBB3BB /* PBXTargetDependency */,
+			);
+			name = Snap_iOS_SDKTests;
+			productName = Snap_iOS_SDKTests;
+			productReference = 95F553311871FFF000EBB3BB /* Snap_iOS_SDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95F5530E1871FFEF00EBB3BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = My;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Darren Adelgren";
+				TargetAttributes = {
+					95F553301871FFF000EBB3BB = {
+						TestTargetID = 95F553151871FFEF00EBB3BB;
+					};
+				};
+			};
+			buildConfigurationList = 95F553111871FFEF00EBB3BB /* Build configuration list for PBXProject "Snap_iOS_SDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95F5530D1871FFEF00EBB3BB;
+			productRefGroup = 95F553171871FFEF00EBB3BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95F553151871FFEF00EBB3BB /* Snap_iOS_SDK */,
+				95F553301871FFF000EBB3BB /* Snap_iOS_SDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95F553141871FFEF00EBB3BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AEBE2F18720F2800F7EBE8 /* FirstViewController.xib in Resources */,
+				95F553241871FFEF00EBB3BB /* InfoPlist.strings in Resources */,
+				95AEBE1C18720EC400F7EBE8 /* second.png in Resources */,
+				95AEBE7A187210B600F7EBE8 /* config.plist in Resources */,
+				95AEBE2118720EDB00F7EBE8 /* second@2x.png in Resources */,
+				95AEBE2C18720F2800F7EBE8 /* first.png in Resources */,
+				95AEBE2318720EDB00F7EBE8 /* SecondViewController.xib in Resources */,
+				95F5532C1871FFEF00EBB3BB /* Images.xcassets in Resources */,
+				95AEBE2D18720F2800F7EBE8 /* first@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F5532F1871FFF000EBB3BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F5533D1871FFF000EBB3BB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95F553121871FFEF00EBB3BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AEBE3718720F8E00F7EBE8 /* CWSAddressInfo.m in Sources */,
+				95AEBE3818720F8E00F7EBE8 /* CWSAlternativeMerchantData.m in Sources */,
+				95AEBE2618720EEE00F7EBE8 /* AppDelegate.m in Sources */,
+				95AEBE531872102A00F7EBE8 /* NSString+Base64Encode.m in Sources */,
+				95AEBE561872104900F7EBE8 /* NSObject+SBJson.m in Sources */,
+				95AEBE781872106000F7EBE8 /* SBJsonWriter.m in Sources */,
+				95AEBE4718720FD900F7EBE8 /* CWSInterchangeData.m in Sources */,
+				95AEBE2218720EDB00F7EBE8 /* SecondViewController.m in Sources */,
+				95AEBE761872106000F7EBE8 /* SBJsonTokeniser.m in Sources */,
+				95AEBE4518720FD900F7EBE8 /* CWSCreditCard.m in Sources */,
+				95AEBE4A18720FD900F7EBE8 /* CWSTransactionReportingData.m in Sources */,
+				95AEBE4818720FD900F7EBE8 /* CWSTransactionData.m in Sources */,
+				95AEBE751872106000F7EBE8 /* SBJsonStreamWriterState.m in Sources */,
+				95AEBE4D18720FF300F7EBE8 /* CWSAPI.m in Sources */,
+				95AEBE771872106000F7EBE8 /* SBJsonUTF8Stream.m in Sources */,
+				95AEBE4918720FD900F7EBE8 /* CWSTransactionDataPro.m in Sources */,
+				95AEBE4618720FD900F7EBE8 /* CWSDifferenceData.m in Sources */,
+				95AEBE741872106000F7EBE8 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				95AEBE711872106000F7EBE8 /* SBJsonStreamParserAdapter.m in Sources */,
+				95AEBE701872106000F7EBE8 /* SBJsonStreamParserAccumulator.m in Sources */,
+				95AEBE6E1872106000F7EBE8 /* SBJsonParser.m in Sources */,
+				95AEBE6F1872106000F7EBE8 /* SBJsonStreamParser.m in Sources */,
+				95AEBE2E18720F2800F7EBE8 /* FirstViewController.m in Sources */,
+				95AEBE501872101500F7EBE8 /* NSDate+InternetDateTime.m in Sources */,
+				95F553261871FFEF00EBB3BB /* main.m in Sources */,
+				95AEBE721872106000F7EBE8 /* SBJsonStreamParserState.m in Sources */,
+				95AEBE731872106000F7EBE8 /* SBJsonStreamWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F5532D1871FFF000EBB3BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F5533F1871FFF000EBB3BB /* Snap_iOS_SDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95F553371871FFF000EBB3BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95F553151871FFEF00EBB3BB /* Snap_iOS_SDK */;
+			targetProxy = 95F553361871FFF000EBB3BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95F553221871FFEF00EBB3BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F553231871FFEF00EBB3BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		95F5533B1871FFF000EBB3BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F5533C1871FFF000EBB3BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95F553401871FFF000EBB3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95F553411871FFF000EBB3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95F553431871FFF000EBB3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snap_iOS_SDK/Snap_iOS_SDK-Prefix.pch";
+				INFOPLIST_FILE = "Snap_iOS_SDK/Snap_iOS_SDK-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		95F553441871FFF000EBB3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snap_iOS_SDK/Snap_iOS_SDK-Prefix.pch";
+				INFOPLIST_FILE = "Snap_iOS_SDK/Snap_iOS_SDK-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		95F553461871FFF000EBB3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Snap_iOS_SDK.app/Snap_iOS_SDK";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snap_iOS_SDK/Snap_iOS_SDK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Snap_iOS_SDKTests/Snap_iOS_SDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		95F553471871FFF000EBB3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Snap_iOS_SDK.app/Snap_iOS_SDK";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snap_iOS_SDK/Snap_iOS_SDK-Prefix.pch";
+				INFOPLIST_FILE = "Snap_iOS_SDKTests/Snap_iOS_SDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95F553111871FFEF00EBB3BB /* Build configuration list for PBXProject "Snap_iOS_SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F553401871FFF000EBB3BB /* Debug */,
+				95F553411871FFF000EBB3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F553421871FFF000EBB3BB /* Build configuration list for PBXNativeTarget "Snap_iOS_SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F553431871FFF000EBB3BB /* Debug */,
+				95F553441871FFF000EBB3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F553451871FFF000EBB3BB /* Build configuration list for PBXNativeTarget "Snap_iOS_SDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F553461871FFF000EBB3BB /* Debug */,
+				95F553471871FFF000EBB3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95F5530E1871FFEF00EBB3BB /* Project object */;
+}
