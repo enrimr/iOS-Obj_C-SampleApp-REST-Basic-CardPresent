@@ -841,7 +841,7 @@ static CWSAPI *sharedAPI = nil;
     return nil;
 }
 
-- (NSDictionary *) adjustTransactionWithId:(NSString *)transactionId withDifferenceData:(CWSDifferenceData *)difference andCreds:(NSArray *)withCreds withTag:(NSString *)optionalTag error:(NSError **)error
+- (NSDictionary *) adjustTransactionWithId:(NSString *)transactionId withDifferenceData:(CWSDifferenceData *)difference withTag:(NSString *)optionalTag error:(NSError **)error
 {
     NSDictionary *differenceDict = [self buildDifferenceWithDifferenceData:difference];
     
