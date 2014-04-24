@@ -165,8 +165,15 @@
      */
     
     NSError *error = nil;
-    
-    CWSAPI *api = [CWSAPI sharedAPIWithIdentityToken:[config valueForKeyPath:@"identityToken"] andBaseURL:[config valueForKeyPath:@"baseURL"] andMerchantProfileId:[config valueForKeyPath:@"merchantProfileId"] andServiceId:[config valueForKeyPath:@"serviceId"] andWorkflowId:[config valueForKeyPath:@"workflowId"] andApplicationProfileId:[config valueForKeyPath:@"applicationProfileId"] error:&error];
+    CWSAPI *api;
+
+    if ([config valueForKeyPath:@"activationKey"] isEqualToString:@""]) {
+        api = [CWSAPI sharedAPIWithIdentityToken:[config valueForKeyPath:@"identityToken"] andBaseURL:[config valueForKeyPath:@"baseURL"] andMerchantProfileId:[config valueForKeyPath:@"merchantProfileId"] andServiceId:[config valueForKeyPath:@"serviceId"] andWorkflowId:[config valueForKeyPath:@"workflowId"] andApplicationProfileId:[config valueForKeyPath:@"applicationProfileId"] error:&error];
+    }
+    else {
+        api = [CWSAPI sharedAPIWithIdentityToken:[config valueForKeyPath:@"identityToken"] andBaseURL:[config valueForKeyPath:@"baseURL"] andMerchantProfileId:[config valueForKeyPath:@"activationKey"] andServiceId:[config valueForKeyPath:@"serviceId"] andWorkflowId:[config valueForKeyPath:@"workflowId"] andApplicationProfileId:[config valueForKeyPath:@"applicationProfileId"] error:&error];
+    }
+
     
     /*
      *  GetServiceInformation and Supported Operations
